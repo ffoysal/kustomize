@@ -14,6 +14,7 @@ jobs:
       - uses: tgymnich/fork-sync@v1.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: ffoysal
           base: master
           head: master
           ignore_fail: false
